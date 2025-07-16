@@ -1,4 +1,3 @@
-import React from "react";
 import BannerImg from "../../assets/women/reign.jpg";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
@@ -27,8 +26,7 @@ const Banner = () => {
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              reiciendis inventore iste ratione ex alias quis magni at optio
+              Looking for something personal or branded? We offer white-labeled solutions where your brand takes centre stage while we handle everything behind the scenes.
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
@@ -36,7 +34,7 @@ const Banner = () => {
                 <p>Quality Products</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
+                <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
                 <p>Fast Delivery</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
@@ -44,7 +42,7 @@ const Banner = () => {
                 <p>Easy Payment method</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
-                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
+                <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
                 <p>Get Offers</p>
               </div>
             </div>

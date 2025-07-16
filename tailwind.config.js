@@ -5,8 +5,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#fea928",
-        secondary: "#ed8900",
+        primary: "#005027",  // Dark Green
+        accentGreen: "#007f3a", // Your earlier green, now as accent
+        white: "#FFFFFF",
       },
       container: {
         center: true,

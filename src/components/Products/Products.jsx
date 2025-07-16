@@ -1,4 +1,3 @@
-import React from "react";
 import Img1 from "../../assets/women/reign.jpg";
 import Img2 from "../../assets/women/ree.webp";
 import Img3 from "../../assets/women/gift.jpg";
@@ -54,15 +53,15 @@ const Products = () => {
       <div className="container">
         {/* Header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
+          <p data-aos="fade-up" className="text-sm text-accentGreen">
             Top Selling Products for you
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Products
           </h1>
           <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+            Crafted in small batches with high-quality ingredients, our classic range is perfect for personal indulgence or professional hospitality.
+
           </p>
         </div>
         {/* Body section */}
@@ -85,7 +84,7 @@ const Products = () => {
                   <h3 className="font-semibold">{data.title}</h3>
                   <p className="text-sm text-gray-600">{data.color}</p>
                   <div className="flex items-center gap-1">
-                    <FaStar className="text-yellow-400" />
+                    <FaStar className="text-green-400" />
                     <span>{data.rating}</span>
                   </div>
                 </div>
@@ -94,7 +93,7 @@ const Products = () => {
           </div>
           {/* view all button */}
           <div className="flex justify-center">
-            <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+            <button className="text-center mt-10 cursor-pointer bg-green-700 text-white py-1 px-5 rounded-md">
               View All Button
             </button>
           </div>

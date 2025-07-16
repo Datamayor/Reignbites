@@ -4,25 +4,25 @@ const TestimonialData = [
   {
     id: 1,
     name: "Pelumi CEO",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "The gift box I ordered from ReignBites brought so much joy to my friend. It’s the perfect place for meaningful, well-curated gifts",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
     name: "John MD",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "ReignBites is my go-to for unique and classy gifts. Every order feels personal and beautifully crafted.",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
     name: "Rachel",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "I love how ReignBites makes gifting effortless yet thoughtful. The packaging and presentation exceeded my expectations.",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
     name: "Sachin Tendulkar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "ReignBites turned my simple gift idea into something unforgettable. The attention to detail and quality made my loved one feel truly special.",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -71,15 +71,15 @@ const Testimonials = () => {
       <div className="container">
         {/* header section */}
         <div className="text-center mb-10 max-w-[600px] mx-auto">
-          <p data-aos="fade-up" className="text-sm text-primary">
+          <p data-aos="fade-up" className="text-sm text-green-800">
             What our customers are saying
           </p>
           <h1 data-aos="fade-up" className="text-3xl font-bold">
             Testimonials
           </h1>
-          <p data-aos="fade-up" className="text-xs text-gray-400">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit
-            asperiores modi Sit asperiores modi
+          <p data-aos="fade-up" className="text-s text-gray-700">
+            We take pride in crafting food that comforts, connects, and communicates value.
+
           </p>
         </div>
 
@@ -88,7 +88,7 @@ const Testimonials = () => {
           <Slider {...settings}>
             {TestimonialData.map((data) => (
               <div key={data.id} className="my-6">
-                <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
+                <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-green-100 relative">
                   <div className="mb-4">
                     <img
                       src={data.img}
@@ -98,7 +98,7 @@ const Testimonials = () => {
                   </div>
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-xs text-gray-500">{data.text}</p>
+                      <p className="text-xs text-gray-700">{data.text}</p>
                       <h1 className="text-xl font-bold text-black/80 dark:text-light">
                         {data.name}
                       </h1>
