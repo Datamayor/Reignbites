@@ -1,22 +1,21 @@
-import React from "react";
 import Slider from "react-slick";
 
 const TestimonialData = [
   {
     id: 1,
-    name: "Victor",
+    name: "Pelumi CEO",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Satya Nadella",
+    name: "John MD",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Virat Kohli",
+    name: "Rachel",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
     img: "https://picsum.photos/104/104",
   },
@@ -29,7 +28,7 @@ const TestimonialData = [
 ];
 
 const Testimonials = () => {
-  var settings = {
+  const settings = {
     dots: true,
     arrows: false,
     infinite: true,
@@ -88,15 +87,12 @@ const Testimonials = () => {
         <div data-aos="zoom-in">
           <Slider {...settings}>
             {TestimonialData.map((data) => (
-              <div className="my-6">
-                <div
-                  key={data.id}
-                  className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative"
-                >
+              <div key={data.id} className="my-6">
+                <div className="flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-800 bg-primary/10 relative">
                   <div className="mb-4">
                     <img
                       src={data.img}
-                      alt=""
+                      alt={`${data.name} testimonial`}
                       className="rounded-full w-20 h-20"
                     />
                   </div>
