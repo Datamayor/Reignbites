@@ -1,5 +1,5 @@
 import Image1 from "../../assets/hero/reignbite.jpeg";
-import Image2 from "../../assets/hero/reignbite2.jpeg";
+import Image2 from "../../assets/hero/reigh.jpg";
 import Image3 from "../../assets/hero/sale.png";
 import Slider from "react-slick";
 
@@ -7,7 +7,7 @@ const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Corperate Gifting",
+    title: "Upto 50% off on all Corporate Gifting",
     description:
       "Looking for something personal or branded? We offer white-labeled solutions where your brand takes centre stage while we handle everything behind the scenes.",
   },
