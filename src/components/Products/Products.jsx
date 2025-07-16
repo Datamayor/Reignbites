@@ -25,7 +25,7 @@ const ProductsData = [
   {
     id: 3,
     img: Img3,
-    title: "Crunchy peanut bites (popularly known as peanut burger)",
+    title: "Crunchy peanut bites",
     rating: 4.7,
     color: "brown",
     aosDelay: "400",
@@ -41,7 +41,7 @@ const ProductsData = [
   {
     id: 5,
     img: Img2,
-    title: "Fashin T-Shirt",
+    title: " Crunchy chin chin & kuli kuli",
     rating: 4.5,
     color: "Pink",
     aosDelay: "800",
